@@ -1,0 +1,240 @@
+.match-slider {
+    width: 100%;
+    margin: 0%;
+    height: inherit;
+    padding: 0%;
+}
+
+.slick-slide {
+    padding: 0 5px;
+    flex-wrap: nowrap;
+    width: 100%;
+    min-height: 220px;
+}
+
+.slick-slide.slick-cloned {
+    visibility: hidden; /* Hide cloned slides visually */
+}
+
+.match-card {
+    position: relative;
+    background-image: url('../../football-background.jpg');
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-size: 175%;
+    background-position: center;
+    color: white;
+    min-height: 220px !important;
+    width: 100%;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.no-live-matches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px; /* Match the height of the match cards */
+    font-size: 18px;
+    color: #FF7900;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.match-info-container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.league-name-slider {
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 3;
+    font-family: Neue Helvetica BQ;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 11.21px;
+    text-align: left;
+}
+
+.live-indicator1 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.live-icon {
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+}
+
+.live-text {
+    color: white;
+    font-size: 8px;
+    margin-top: 0;
+}
+
+.match-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.team-logo-container-hot img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.team-logo-hot {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.match-info {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.match-time {
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Neue Helvetica BQ;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 9.56px;
+    text-align: center;
+    margin-top: 10px; /* Add margin to separate from other elements */
+}
+
+.whistle-icon {
+    width: 20.5px;
+    height: 14.47px;
+    margin-right: 5px;
+}
+
+.match-score-hot {
+    font-size: 20px;
+    color: #FF7900;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    font-weight: bold;
+    background-color: transparent; /* Ensure transparent background */
+}
+
+.match-teams {
+    color: white;
+    font-family: Neue Helvetica BQ;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.94px;
+    text-align: center;
+    white-space: normal; /* Allow text to wrap */
+    word-break: break-word; /* Break long words */
+    max-width: 70px; /* Adjust based on your layout to ensure text wraps */
+}
+
+.slick-dots {
+    top: 220px;
+    bottom: 10px !important;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.slick-dots li button:before {
+    font-size: 20px;
+    color: #FF7900;
+    opacity: 0.5;
+    content: '\25CB';
+}
+
+.slick-dots li.slick-active button:before {
+    color: #FF7900;
+    opacity: 1;
+    content: '\25CF';
+}
+
+.custom-prev-arrow,
+.custom-next-arrow {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 2;
+    border: none;
+    border-radius: 4px;
+}
+
+.custom-prev-arrow {
+    left: -10px;
+}
+
+.custom-next-arrow {
+    right: -25px;
+}
+
+.custom-prev-arrow:before,
+.custom-next-arrow:before {
+    font-size: 30px;
+    color: #FF7900;
+    font-weight: bolder;
+}
+
+.custom-prev-arrow:before {
+    content: '\276E';
+}
+
+.custom-next-arrow:before {
+    content: '\276F';
+}

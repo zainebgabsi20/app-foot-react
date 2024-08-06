@@ -1,0 +1,152 @@
+.team-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.team-details-header {
+  display: flex;
+  align-items: center;
+}
+
+.custom-arrow-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.team-details-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.league-info-standing {
+  display: flex;
+  align-items: center; /* Space between title and league info */
+  padding: 0%;
+  left: 0px;
+  margin-right: 220px;
+  margin-top: 20px;
+ 
+}
+.league-info-standing h4 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+.league-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.tabs-league {
+  margin-top: 20px;
+}
+
+
+
+.standings-table2 {
+  width: 100%;
+  border-collapse: collapse;
+  font-weight: bold;
+}
+
+.standings-table2 th,
+.standings-table2 td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.standings-table2 th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+.standings-table2 tr:hover {
+  background-color: #f1f1f1;
+}
+
+.position-circle2 {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.team-logo-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.standings-table2 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.standings-table2 th, .standings-table2 td {
+  padding: 5px;
+  text-align: left;
+  border: none;
+}
+
+.standings-table2 tr:hover {
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 768px) {
+  .team-logo5 {
+    width: 20px;
+    height: 20px;
+  }
+
+  .team-logo-name-container img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .position-circle2 {
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+  }
+
+  .tabs-league {
+    overflow-x: auto;
+  }
+
+  .standings-table2 th, .standings-table2 td {
+    padding: 8px;
+    font-size: 12px;
+  }
+}
+
+.points-column2 {
+  color: orange;
+  font-weight: bold;
+}
+
+.team-logo5 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.team-logo-name-container {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 12px;
+}

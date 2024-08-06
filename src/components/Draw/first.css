@@ -1,0 +1,200 @@
+.first-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%; /* Full width */
+    overflow-y: auto; /* Allow vertical scrolling if needed */
+    font-family: 'Neue Helvetica BQ', sans-serif;
+}
+
+.bracket {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px; /* Maintain max width for control */
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center; /* Center align text */
+}
+
+.pair-container {
+    display: flex;
+    justify-content: space-evenly; /* Use space-evenly for tighter spacing */
+    margin-bottom: 10px;
+    align-items: center;
+    position: relative;
+    width: 100%; /* Full width for flexibility */
+}
+
+.round16-pair,
+.quarterfinal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+    min-width: 200px; /* Adjust min width */
+    max-width: 38%; /* Reduce max width */
+}
+
+.quarterfinal {
+    margin-right: 50px;
+}
+
+.matchup {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to start */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    position: relative;
+    width: 70%; /* Increase width for better fit */
+    margin: 5px auto; /* Center the matchup within the container */
+    
+    padding-top: 2px;/* Remove left padding */
+    padding-bottom: 2px;/* Remove left padding */
+}
+
+
+
+.container-first{
+    display: flex;
+    padding: 5px;
+}
+
+.team-first {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Increase the gap for more space between elements */
+    margin-bottom: 5px; /* Add margin between team entries */
+}
+
+.team-name-first {
+    font-family: 'Neue Helvetica BQ', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 13.7px;
+    text-align: left;
+    flex: 1;
+    display: flex;
+    align-items: center; /* Ensure vertical alignment with scores */
+    margin-right: 10px; /* Add space between team name and score container */
+}
+
+
+.team-scores-container {
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 15px; /* Rounded corners for oval shape */
+    display: flex;
+    flex-direction: column; /* Stack scores vertically */
+    align-items: center;
+    justify-content: space-between; /* Use space-between for better spacing */
+    width: 25px; /* Set width for oval shape */
+    height: 40px; /* Set height for oval shape */
+    padding: 5px 0; /* Increase padding for better spacing */
+    margin-right: 2px; /* Reduce padding for a tighter fit */
+}
+
+.match-details-first {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    left: 0%;
+    width: 65%; /* Account for button width */
+    margin-right: 25px;
+    gap: 5px;
+    top :5px; /* Consistent gap between team entries */
+}
+
+
+
+
+
+
+
+
+
+.team-logo-first {
+    width: 16px; /* Smaller logo */
+    height: 16px; /* Smaller logo */
+    border-radius: 50%;
+}
+
+
+
+
+.team-score-first {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1.5; /* Increase line height for more space between scores */
+}
+
+.h2h-button-first {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 3px; /* Smaller border radius */
+    padding: 2px 5px; /* Smaller padding */
+    font-size: 10px; /* Smaller font size */
+    cursor: pointer;
+    position: absolute;
+    right: -25px; /* Adjust to fit within container */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.line-connector {
+    width: 2px;
+    background-color: #ddd;
+    height: calc(100% - 70px); /* Further reduce the height for a shorter line */
+    position: absolute;
+    left: 50%;
+    top: 30px; /* Adjust top position to keep it centered */
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.medal-image {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20px; /* Adjust spacing between the final match and medal */
+  }
+
+.line-connector:before,
+.line-connector:after,
+.line-connector .middle-line {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: #ddd;
+}
+
+.line-connector:before {
+    top: 0;
+    left: 50%;
+    transform: translateX(-100%);
+}
+
+.line-connector:after {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-100%);
+}
+
+.line-connector .middle-line {
+    top: 50%;
+    left: 50%;
+    transform: translateX(100%);
+    transform: translateY(-50%);
+}

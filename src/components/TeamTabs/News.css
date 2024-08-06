@@ -1,0 +1,31 @@
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.news-item {
+  background-color: #fff;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 50%; /* Adjust width based on the number of items per row */
+}
+
+.news-image {
+  height: 150px; /* Adjust the height as needed */
+  object-fit: cover;
+  width: 100%;
+  border-bottom: 1px solid black;
+  
+}
+
+.news-caption {
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}

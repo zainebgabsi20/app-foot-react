@@ -1,0 +1,77 @@
+.commentary-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.commentary-list {
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-top: none; /* Remove top border */
+  border-left: none; /* Remove left border */
+  border-right: none; /* Remove right border */
+  border-collapse: collapse;
+  border: none;
+}
+.commentary-text{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.commentary-item {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #D9D9D9;
+}
+.commentary-item:first-of-type {
+  border-top: none !important; } 
+
+  
+.commentary-minute {
+  font-weight: bold;
+  margin-right: 6px;
+  white-space: nowrap;
+}
+
+.commentary-text {
+  flex-grow: 1;
+}
+
+.current-half {
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.2em;
+  
+}
+
+.not-available {
+  text-align: center;
+  color: #FF7900;
+  font-weight: bold;
+  font-size: 18px; /* You can adjust the size as needed */
+  margin-top: 40px; /* Optional: Add some margin to position it nicely */
+}
+
+.half-icon {
+  width: 17px;
+  height: 12px;
+  top: 341px;
+  left: 174px;
+  gap: 0px;
+  opacity: 0px;
+}
+  
+
+.commentary-item {
+  padding: 10px;
+}
+
+.commentary-item.even {
+  background-color: #f8f8f8;
+}
+
+.commentary-item.odd {
+  background-color: #ffffff;
+}

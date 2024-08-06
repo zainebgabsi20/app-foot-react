@@ -1,0 +1,89 @@
+.final-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center heading and content */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.bracket1 {
+    text-align: center; /* Center the heading text */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.cont {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: center; /* Center the items horizontally within the container */
+    width: 100%;
+    max-width: 800px; /* Optional: Constrain max width for better control */
+}
+
+.match-fourth {
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center; /* Align items vertically */
+    width: 100%;
+    position: relative; /* For positioning arrow */
+    margin-right: 20px; /* Space between matchup and medal */
+}
+
+.arrow1 {
+    position: absolute;
+    right: -140px; /* Adjust position for longer arrow */
+    width: 140px; /* Increase the length of the arrow */
+    height: 2px;
+    background-color: #ddd;
+}
+
+.arrow1::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -3px;
+    border: 5px solid transparent;
+    border-left-color: #ddd;
+}
+
+.medal-container {
+    display: flex;
+    justify-content: flex-end; /* Align medal to the right */
+    align-items: center;
+    right: 0;
+    width: 30%;
+    margin-left: 100px;
+}
+
+.matchup4 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to start */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    position: relative;
+    width: 70%; /* Increase width for better fit */
+    margin: 5px auto; /* Center the matchup within the container */
+    margin-right: 100px;
+    padding-top: 2px; /* Remove left padding */
+    padding-bottom: 2px; /* Remove left padding */
+}
+
+.medal-image {
+    width: 60px; /* Adjust size as needed */
+    height: auto;
+}
+
+.team-logo-fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 16px; /* Circle width */
+    height: 16px; /* Circle height */
+    border-radius: 50%; /* Make it a circle */
+    font-size: 12px; /* Adjust font size */
+    margin-right: 5px; /* Space between logo and team name */
+}

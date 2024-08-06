@@ -1,0 +1,69 @@
+.horizontal-date-picker-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+  position: relative;
+  margin-left:30px; 
+  margin-top: 10px;
+  }
+  
+  .custom-arrow-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .date-scroll-container {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    flex: 1; /* Take up remaining space */
+  }
+  
+  .date-scroll-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
+  .date-item {
+    display: inline-block;
+    flex-shrink: 0;
+    margin: 0 -7px;
+  }
+  .custom-arrow-button svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .custom-arrow-button.previous {
+    margin-right: -20px; /* Decrease the margin */
+  }
+  .custom-arrow-button.next {
+    margin-left: -20px; /* Decrease the margin */
+  }
+  
+  .date-button {
+    background: none;
+    border: none;
+    padding: 10px;
+    margin: 3px;
+    cursor: pointer;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  .date-button.selected {
+    background-color: transparent; 
+    border-bottom: 2px solid #FF7900;
+  }
+  
+  .date-button span {
+    display: block;
+    line-height: 1.2; /* Adjust line-height as needed */
+  }

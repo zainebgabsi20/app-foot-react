@@ -1,0 +1,17 @@
+.empty-data-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px; /* Adjust the height as needed */
+    text-align: center;
+    color: 
+    #FF7900;
+  }
+  
+  .empty-data-container img.no-data-icon {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    margin-bottom: 10px;
+  }
+  

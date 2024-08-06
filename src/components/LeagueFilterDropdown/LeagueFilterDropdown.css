@@ -1,0 +1,91 @@
+.league-filter-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .filter-button {
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .filter-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .dropdown-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .dropdown-item input[type="checkbox"] {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #FF7900;
+    border-radius: 0;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  
+  .dropdown-item input[type="checkbox"]:checked {
+    background-color: #FF7900;
+    border: 1px solid #FF7900;
+  }
+  
+  .dropdown-item input[type="checkbox"]:checked::after {
+    content: '✔';
+    display: block;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+  }
+  
+  .dropdown-item span {
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dropdown-footer button {
+    padding: 5px 10px;
+    border: 1px solid #FF7900;
+    background-color: #fff;
+    cursor: pointer;
+    color: #FF7900;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  

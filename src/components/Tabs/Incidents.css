@@ -1,0 +1,67 @@
+.incidents-container{
+    margin :5px;
+    padding: 1%;
+}
+
+.incident-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0;
+    width: 100%;
+  }
+  
+  .incident-minute {
+    font-weight: bold;
+  }
+  
+  .incident-text {
+    flex-grow: 1;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .home-event {
+    justify-content: flex-start;
+    text-align: left;
+  }
+  
+  .away-event {
+    justify-content: flex-end;
+    text-align: right;
+  }
+  
+  .half-section {
+    margin-bottom: 20px;
+  }
+  .half{
+ text-align: center;
+ font-size: 18px;
+ font-weight: bolder;
+  }
+  .event-score {
+    font-size: 28px;
+    color: #FF7900;;
+    text-align: center;
+    margin-bottom: 1px;
+    font-weight: bolder;
+
+  }
+  
+  .events-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .events-column .incident-item {
+    width: 100%; /* Ensure each row takes the full width */
+  }
+  
+  h4 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  img {
+    width:30px;
+    height: 30px;
+
+  }

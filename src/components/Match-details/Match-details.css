@@ -1,0 +1,47 @@
+/* src/components/Match-details/Match-details.css */
+.whole-container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: 50px; /* Adjust based on the height of your navbar */
+}
+
+.match-details-header {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: white;
+  margin-top: 10%;
+}
+
+.custom-arrow-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.match-info-detailscard.p{
+  padding: 0%;
+}
+.custom-arrow-button svg {
+  width: 24px;
+  height: 24px;
+}
+
+.custom-arrow-button:hover {
+  color: #FF7900;
+}
+
+.match-details-title {
+  margin: 0;
+  font-size: 16px;
+  flex-grow: 1; /* This makes the title take up the remaining space */
+  text-align: left;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: left; /* Center horizontally */
+}

@@ -1,0 +1,70 @@
+/* src/components/MatchDetailCard/MatchDetailCard.css */
+.match-detail-card {
+  padding: 5px;
+  border-radius: 10px;
+  background: #fff;
+  max-width: 600px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.match-detail-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.team-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+}
+
+.team-logo-card {
+  width: 50px;
+  height: 50px;
+}
+
+.team-name-card {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  word-break: break-word; /* Allows long words to be broken and wrap to the next line */
+  max-width: 80px; /* Adjust the max-width to suit your layout */
+}
+
+.score-card {
+  font-size: 28px;
+  color: #FF7900;
+  font-weight: bolder;
+}
+
+.score {
+  font-size: 36px;
+  font-weight: bold;
+  display: inline-block;
+  width: 80px;
+}
+
+.match-info-detailscard {
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 12px !important;
+  white-space: pre-wrap; /* Preserves the newline character */
+}

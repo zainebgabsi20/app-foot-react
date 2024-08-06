@@ -1,0 +1,117 @@
+.standings-table2 {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border-collapse: collapse;
+}
+
+.standings-table2 th,
+.standings-table2 td {
+  padding: 10px;
+  text-align: left;
+  border: none;
+}
+
+.standings-table2 th {
+  background-color: white;
+  border: none;
+}
+
+.standings-table2 tr:nth-child(even) {
+  background-color: white;
+}
+
+.standings-table2 tr:nth-child(odd) {
+  background-color: #EEEEEE;
+  border: none;
+}
+
+.standings-table2 tr:hover {
+  background-color: #f1f1f1;
+}
+
+.position-circle2 {
+  width: 20px; /* Reduce width */
+  height: 20px; /* Reduce height */
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text color */
+  margin-right: 10px;
+  font-weight: bold; /* Ensure text is bold */
+  font-size: 12px; /* Reduce font size for better fit */
+}
+
+
+.team-logo-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.standings-table2 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.standings-table2 th, .standings-table2 td {
+  padding: 5px;
+  text-align: left;
+  border: none;
+}
+
+.standings-table2 tr:hover {
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 768px) {
+  .team-logo5
+ {
+    width: 20px; /* Reduce size for smaller screens */
+    height: 20px;
+  }
+
+  .team-logo-name-container img {
+    width: 20px; /* Adjust logo size */
+    height: 20px;
+  }
+
+  .position-circle2 {
+    width: 18px; /* Smaller size for mobile */
+    height: 18px;
+    font-size: 10px; /* Smaller font size for mobile */
+  }
+
+  .tabs-league {
+    overflow-x: auto; /* Ensure tabs are scrollable on small screens */
+  }
+
+  .standings-table2 th, .standings-table2 td {
+    padding: 8px;
+    font-size: 12px; /* Adjust font size for readability */
+  }
+}
+
+
+
+.points-column2 {
+  color: orange;
+  font-weight: bold;
+}
+
+.team-logo5 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.icon2 {
+  width: 15px;
+  height: 15px;
+  top: 407px;
+  left: 35px;
+  gap: 0px;
+  opacity: 0px;
+}

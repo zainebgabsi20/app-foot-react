@@ -1,0 +1,85 @@
+.squad-container {
+  padding: 20px;
+}
+
+.squad-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.squad-table th,
+.squad-table td {
+  padding: 8px;
+  vertical-align: middle; /* Ensure vertical alignment */
+}
+
+.squad-table th {
+  background-color: #f8f8f8;
+  text-align: right;
+}
+
+.squad-table td.left-align {
+  text-align: left;
+}
+
+.country-flag-player {
+  width: 20px; 
+  height: 10px;
+  margin-right: 5px;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+}
+
+.player-info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.player-info .number {
+  margin-right: 5px;
+  width: 20px; /* Fixed width */
+  text-align: right; /* Align text to the right */
+}
+
+.flag-container-player {
+  width: 25px; /* Fixed width to align flags */
+}
+
+.flag-container-player img {
+  display: block; /* Ensure the image behaves like a block element */
+}
+
+.squad-player-name {
+  flex-grow: 1; /* Allow player name to grow and take available space */
+}
+
+.player-image-container {
+  width: 40px; /* Fixed width to align images */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.player-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.center-align {
+  text-align: center;
+}

@@ -1,0 +1,91 @@
+.h2h-table {
+  width: 90%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.matches-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-content: center;
+  margin-left: 5%;
+}
+
+.matches-table tr {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table-date {
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 5%;
+  flex: 1;
+  text-align: left;
+}
+
+.team-name {
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 5%;
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+.team-name1 {
+  font-size: 10px;
+  font-weight: bold;
+  flex: 2;
+  display: flex;
+  margin-left: 5%;
+  flex-direction: row-reverse;
+  margin-right: 0%;
+  text-align: right;
+  width: 100%; /* Ensure the width is consistent */
+}
+.h2h-img1 {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+
+.table-score {
+  font-weight: bold;
+  font-size: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  display: inline-block;
+  width: 20px;
+  flex: 0 0 30px; /* Fixed width for score */
+  text-align: center;
+}
+
+h4 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+h3 {
+  margin-left: 10px;
+}
+
+.matches-table tr:nth-child(odd) {
+  background-color: #EEEEEE; /* Light grey background for odd rows */
+}
+
+.matches-table tr:nth-child(even) {
+  background-color: #ffffff; /* White background for even rows */
+}
+
+.not-available {
+  text-align: center;
+  color: #FF7900;
+  font-weight: bold;
+  font-size: 18px; /* You can adjust the size as needed */
+  margin-top: 40px; /* Optional: Add some margin to position it nicely */
+}

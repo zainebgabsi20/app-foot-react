@@ -1,0 +1,58 @@
+.substitutes-container {
+    padding: 20px;
+  }
+  
+  .substitutes-grid {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .team {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20%;
+  }
+  
+  .player-card {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+  }
+  
+  .home-team, .away-team {
+    width: 50%;
+  }
+  
+  .player-number {
+    width: 15%;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .player-name {
+    width: 85%;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .not-available {
+    text-align: center;
+    color: #FF7900;
+    font-weight: bold;
+    font-size: 18px; /* You can adjust the size as needed */
+    margin-top: 40px; /* Optional: Add some margin to position it nicely */
+  }

@@ -1,0 +1,53 @@
+/* src/components/Team/Team.css */
+.team-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 50px; /* Adjust based on the height of your navbar */
+  }
+  
+  .team-details-header {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left horizontally */
+    align-items: center; /* Align items to the center vertically */
+    padding: 5px;
+    margin-right: 270px;
+    background-color: white;
+    margin-top: 10%;
+  }
+  
+  
+  .custom-arrow-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-arrow-button svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .custom-arrow-button:hover {
+    color: #FF7900;
+  }
+  
+  .team-details-title {
+    margin: 0;
+    font-size: 16px;
+    flex-grow: 1; /* This makes the title take up the remaining space */
+    text-align: left;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: left; /* Center horizontally */
+  }
+  
+  .tabs-team {
+    margin-top: 5px;
+  }
+  

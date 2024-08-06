@@ -1,0 +1,174 @@
+.team-info {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden; /* Ensure overflow is handled */
+}
+
+.team-info-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.team-logo5 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  display: inline-block; /* Ensure inline-block display */
+}
+
+.team-stats {
+  margin-bottom: 20px;
+}
+
+.team-stats-table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.team-stats-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+}
+
+.country-flag {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px; /* Space between flag and country name */
+  vertical-align: middle;
+}
+.icon {
+  width: 15px;
+height: 15px;
+top: 407px;
+left: 35px;
+gap: 0px;
+opacity: 0px;
+
+}
+.form-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.win {
+  background-color: #18844A;
+}
+
+.draw {
+  background-color: #FBBC42;
+}
+
+.loss {
+  background-color: #DD0000;
+}
+
+.team-standings {
+  width: 100%;
+  overflow-x: auto; /* Ensure horizontal scroll if content overflows */
+}
+
+.league-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.league-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.standings-table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border-collapse: collapse;
+}
+
+.standings-table th,
+.standings-table td {
+  padding: 10px;
+  text-align: left; /* Align text to the left for better readability */
+  border: none;
+}
+
+.standings-table th {
+  background-color: white;
+  border: none;
+}
+
+.standings-table tr:nth-child(even) {
+  background-color: white;
+}
+
+.standings-table tr:nth-child(odd) {
+  background-color: #EEEEEE;
+  border: none;
+}
+
+.standings-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+.points-column {
+  color: orange;
+  font-weight: bold;
+}
+
+.team-stats-table tr:nth-child(even) {
+  background-color: white;
+}
+
+.team-stats-table tr:nth-child(odd) {
+  background-color: #EEEEEE;
+}
+
+@media (max-width: 768px) {
+  .team-info {
+    padding: 10px;
+  }
+
+  .team-logo5,
+  .country-flag,
+  .league-logo {
+    width: 20px;
+    height: 20px;
+  }
+
+  .team-stats-table td,
+  .standings-table th,
+  .standings-table td {
+    padding: 5px;
+  }
+
+  .form-circle {
+    width: 8px;
+    height: 8px;
+  }
+
+  .position-circle {
+    width: 15px;
+    height: 15px;
+  }
+}

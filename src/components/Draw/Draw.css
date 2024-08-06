@@ -1,0 +1,103 @@
+.team-container {
+  padding: 20px;
+}
+
+.team-details-header {
+  display: flex;
+  align-items: center;
+  margin-top: 75px;
+}
+
+.custom-arrow-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.custom-arrow-button svg {
+  width: 24px;
+  height: 24px;
+}
+
+.team-details-title {
+  margin-left: 10px;
+}
+
+
+.bracket {
+  display: flex;
+  flex-direction: column;
+}
+
+.round {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.matchup {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.match {
+  display: flex;
+  align-items: center;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.team-name {
+  margin-right: 10px;
+}
+
+.team-score {
+  font-weight: bold;
+}
+
+.h2h-button {
+  padding: 5px 10px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tabs-container-draw {
+  display: flex;
+  justify-content: center; /* Center the tabs within the container */
+  flex-wrap: nowrap; /* Prevent wrapping */
+  padding: 0 5px; /* Add some padding on the sides */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+.tab-button-draw {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 8px 40px; /* Increase padding for larger button size */
+  margin: 0 5px; /* Increase margin between buttons for better spacing */
+  cursor: pointer;
+  font-size: 13px; /* Increase font size for better readability */
+  transition: all 0.3s ease;
+  font-weight: bold;
+  white-space: nowrap; /* Prevent text from wrapping inside buttons */
+}
+
+.tab-button-draw.active {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.tab-button-draw:hover {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,178 @@
+/* Updated Styles for the .filters container */
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Increased gap for better spacing */
+  margin-top: 100px; /* Adjusted margin-top to move the filters down */
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Add gap for spacing between switch and label */
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px; /* Adjusted width for the switch */
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 20px;
+  width: 100%; /* Ensure slider takes full width of the switch */
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px; /* Adjusted height for better visibility */
+  width: 16px; /* Adjusted width for the slider knob */
+  left: 4px;
+  bottom: 2px; /* Adjusted vertical position for better centering */
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #FF7900; /* Switch color when checked */
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px); /* Adjusted translateX for checked state */
+}
+
+.filter-button {
+  border: 1px solid #000;
+  background-color: #fff;
+  padding: 10px 15px; /* Increased padding for bigger button */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 8px; /* Rounding the corners */
+  font-weight: bold;
+}
+
+.filter-icon {
+  width: 20px; /* Increased icon size */
+  height: 20px; /* Increased icon size */
+  margin-right: 10px;
+}
+
+.filter-select {
+  border: 1px solid #000;
+  padding: 0px 25px 5px 15px; /* Adjusted padding */
+  cursor: pointer;
+  padding-left: 5px;
+  display: inline-flex; /* Changed to inline-flex for tighter width */
+  appearance: none;
+  align-items: center; /* Ensure alignment for icon */
+  border-radius: 8px; /* Rounding the corners */
+  font-weight: bold; /* Make text bold */
+  position: relative; /* Ensure positioning for pseudo-element */
+  padding-bottom: 12px;
+  padding-top: 12px;
+  width: auto; /* Allow width to adjust based on content */
+  max-width: 250px; /* Limit maximum width to prevent excessive width */
+  /* Add background image (icon) properties below */
+  background-image: url('../../icon_dd.png'); /* Path to your icon image */
+  background-repeat: no-repeat;
+  background-size: 13px;
+  background-position: right 10px center; /* Position your icon a little to the left */
+}
+
+.filter-live-label {
+  margin-right: 15px;
+  font-weight: bold;
+  color: black; /* Ensure the text color is visible */
+}
+
+/* Additional styles for the date picker and slider containers */
+.date-picker-container {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px; /* Center horizontally */
+}
+
+.hot-matches-slider-container {
+  margin-top: 0px; /* Remove spacing above the slider */
+  width: 100%;
+  position: relative;
+  padding: 0%;
+  margin: 5%;
+  
+}
+
+
+.slick-list{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  height: 220px;
+}
+
+.hot-matches-header {
+ 
+
+  height: 50px;
+  position: relative;
+  left: 0;
+  margin-bottom: 5px;
+  color: #FF7900;
+  font-size: 14px;
+  text-align: left;
+  margin-top: 10px;
+  padding-right: 300px; /* Add some padding to move it a bit to the right */
+}
+
+.match-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.match-header h2 {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.match-header .match-time {
+  font-size: 18px;
+  color: white !important;
+}
+
+.match-details {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.referee-flag {
+  width: 20px;
+  height: 14px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.match {
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}

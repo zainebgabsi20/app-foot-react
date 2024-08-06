@@ -1,0 +1,189 @@
+.datepicker-month-label {
+  display: none;
+}
+
+.scroll-head {
+  display: none;
+}
+
+/* Custom styles for the date picker container */
+.horizontal-date-picker {
+  width: 80%; /* Adjusted to make it less wide */
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for each day element */
+.rhp__dates {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for left and right sides of the date picker */
+.rhp__dates--left,
+.rhp__dates--right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Additional styles for .rhp__dates--left */
+.rhp__dates--left {
+  text-align: left;
+  padding-left: 10px;
+}
+
+/* Additional styles for .rhp__dates--right */
+.rhp__dates--right {
+  text-align: right;
+  padding-right: 10px;
+}
+
+/* Hide the original next and previous buttons */
+button.datepicker-button-next,
+button.datepicker-button-previous {
+  display: none;
+}
+
+/* Custom styles for custom arrow buttons */
+.custom-arrow-button {
+  background-color: transparent;
+  color: gray;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+iframe {
+  display: none;
+}
+
+.custom-arrow-button.previous {
+  left: 80px; /* Adjust this value to position the button closer to the left side */
+  z-index: 1; /* Ensure it is on top */
+}
+
+.custom-arrow-button.next {
+  right: 20px; /* Adjust this value to position the button closer to the right side */
+  z-index: 1; /* Ensure it is on top */
+}
+
+.custom-arrow-button svg {
+  width: 20px;
+  height: 20px;
+  stroke: gray;
+  stroke-width: 3;
+}
+
+/* Ensure the container and date elements are aligned properly */
+.horizontal-date-picker-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ensure the date picker itself aligns the dates properly */
+.react-horizontal-date-picker {
+  display: flex;
+  align-items: center;
+  margin: 0 20px; /* Add margin to avoid overlap with arrows */
+}
+
+/* Custom styles for the date picker */
+.rhp__calendar {
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Custom styles for the date elements */
+.datepicker-date-day-item-wrapper {
+  opacity: 1;
+  color: gray;
+}
+
+/* Custom styles for selected date */
+.rhp__day--selected {
+  color: #374e8c;
+  border-bottom: 2px solid  #FF7900;
+  ; /* Orange line for selected date */
+  background-color: transparent; /* Ensure no background color */
+}
+
+/* Custom styles for the arrows */
+.rhp__arrow {
+  background-color: #374e8c;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.datepicker-day-label {
+  opacity: 1;
+  color: gray;
+}
+
+.datepicker-date-label.ripple {
+  opacity: 1;
+  color: gray;
+}
+
+/* Set the dimensions of the .wrapper div */
+div.wrapper {
+  width: 48.2px;
+  height: 48.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.wrapper:hover,
+div.wrapper:focus,
+div.wrapper:active,
+.datepicker-date-day-Item.wrapper.date-day-Item-selected {
+  outline: none;
+  box-shadow: none;
+  outline-color: transparent;
+  background-color: transparent;
+  border-top-color:transparent;
+  border-right-color:transparent;
+  border-left-color:transparent;
+}
+
+div.datepicker-strip {
+  width: 400px;
+  position: relative;
+  align-items: center;
+  margin-left: 0%;
+}
+
+.datepicker-date-day-Item.wrapper.date-day-Item-selected {
+  border-bottom: 2px solid; 
+  border-bottom-color: #FF7900;
+  border-bottom-right-radius: 0; 
+  border-bottom-left-radius: 0; 
+}
+
+/* Styles for the calendar icon container */
+.calendar-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  margin-right: 10px; /* Adjust this value to move the icon to the right */
+}
+
+.calendar-icon-container svg {
+  width: 24px;
+  height: 24px;
+  color: gray;
+}

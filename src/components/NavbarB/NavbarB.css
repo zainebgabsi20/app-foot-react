@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black !important; /* Fond noir */
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  margin-top: 0% !important;
+  padding: 10px 0; /* Adjusted padding for top and bottom */
+  height: 65px; /* Increased height */
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  color: white !important; /* Assurez-vous que les icônes sont visibles */
+  margin-top: 10px;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-center {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-logo {
+  width: 48px;
+  height: 48px;
+  top: 10px;
+  left: 216px;
+  gap: 0px;
+  opacity: 0px;
+  
+}

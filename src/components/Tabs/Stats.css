@@ -1,0 +1,92 @@
+.stats-container {
+    padding: 0px;
+    background-color: #f8f8f8;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .stats-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .stat-label {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .stat-bars {
+    display: flex;
+    width: 100%; /* Ensure it takes the full width */
+  }
+  
+  .stat-home, .stat-away {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    position: relative;
+  }
+  
+  .stat-bar-wrapper-red {
+    flex: 1;
+    background-color: #ddd;
+    overflow: hidden;
+    margin: 0 5px;
+    display: flex;
+  }
+  
+  .stat-bar-wrapper-orange {
+    flex: 1;
+    background-color: #ddd;
+    overflow: hidden;
+    margin: 0 5px;
+    justify-content: flex-end; /* Align to the right */
+    position: relative;
+    transform: rotate(180deg);
+  }
+  
+  .stat-bar-orange, .stat-bar-red {
+    height: 10px;
+  }
+  
+  .stat-value-circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 2px solid gray; /* Default gray border */
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    flex-shrink: 0; /* Prevents shrinking */
+    color: gray; /* Default gray color */
+  }
+  
+  .stat-home .stat-value-circle {
+    margin-right: 5px;
+  }
+  
+  .stat-away .stat-value-circle {
+    margin-left: 5px;
+  }
+  
+  .not-available {
+    text-align: center;
+    color: #FF7900;
+    font-weight: bold;
+    font-size: 18px; /* Adjust the size as needed */
+    margin-top: 40px; /* Optional: Add some margin to position it nicely */
+  }
+  
